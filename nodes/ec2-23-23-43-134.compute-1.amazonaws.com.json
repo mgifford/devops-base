@@ -1,0 +1,1 @@
+{ "run_list": ["recipe[php]", "recipe[drush]", "recipe[yum]", "recipe[memcached]"] }
