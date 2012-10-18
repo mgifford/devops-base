@@ -1,8 +1,14 @@
 { "run_list": [
   "recipe[php]", 
-  "recipe[drush]", 
   "recipe[yum]", 
   "recipe[memcached]", 
   "recipe[git]", 
-  "recipe[apache2]"
+  "recipe[apache2]",
+  "recipe[logrotate]",
+  "recipe[cron]",
+  "recipe[percona]",
+  "recipe[openssl]",
+  "recipe[openssh]",
+  "recipe[bash]",
+  "recipe[selinux]"
 ]  }

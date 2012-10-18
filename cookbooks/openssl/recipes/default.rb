@@ -1,6 +1,8 @@
-# Cookbook Name:: varnish
-# Recipe:: apt_repo
-# Author:: Patrick Connolly <patrick@myplanetdigital.com>
+#
+# Cookbook Name:: openssl
+# Recipe:: default
+#
+# Copyright 2009, Opscode, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +17,3 @@
 # limitations under the License.
 #
 
-apt_repository "varnish-cache" do
-  uri "http://repo.varnish-cache.org/#{node['platform']}"
-  distribution node['lsb']['codename']
-  components ["varnish-#{node['varnish']['version']}"]
-  key "http://repo.varnish-cache.org/#{node['platform']}/GPG-key.txt"
-end
