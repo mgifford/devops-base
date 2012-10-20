@@ -12,7 +12,6 @@
   "env_run_lists": {
   },
   "run_list": [
-    "recipe[varnish::apt_repo]",
     "recipe[varnish]"
   ],
   "description": "Install Varnish HTTP Cache infront of a specified server and port.",
