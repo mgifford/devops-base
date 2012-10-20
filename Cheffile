@@ -5,5 +5,8 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook "apache2"
 cookbook "apt"
+cookbook "percona",
+  :git => "https://github.com/phlipper/chef-percona",
+  :ref => "master"
 cookbook "php"
 cookbook "varnish"
