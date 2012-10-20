@@ -1,0 +1,10 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.2.0)
+    apt (1.4.8)
+
+DEPENDENCIES
+  apache2 (>= 0)
+  apt (>= 0)
+
