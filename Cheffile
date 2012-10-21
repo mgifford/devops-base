@@ -4,6 +4,10 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook "apache2"
+cookbook "build-essential"
+cookbook "drush",
+  :git => "https://github.com/msonnabaum/chef-drush.git",
+  :ref => "master"
 cookbook "memcached"
 cookbook "percona",
   :git => "https://github.com/phlipper/chef-percona",
