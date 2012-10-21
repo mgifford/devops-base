@@ -6,7 +6,9 @@
   "env_run_lists": {
   },
   "run_list": [
-    "recipe[memcached]"
+    "recipe[memcached]",
+    "recipe[php::module_memcache]",
+    "recipe[php::module_memcached]"
   ],
   "description": "Configure host to run Memcached Daemon.",
   "chef_type": "role",
