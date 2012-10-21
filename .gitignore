@@ -5,6 +5,7 @@
 
 # Librarian/RVM/Bundler
 nodes/*.json
+!nodes/dna.json
 cookbooks/
 tmp/
 .bundle/

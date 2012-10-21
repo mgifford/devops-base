@@ -1,0 +1,6 @@
+{ "run_list": [
+    "role[memcached_server]",
+    "role[mysql_server_percona]",
+    "role[web_server]",
+    "role[varnish_front]"
+] }
