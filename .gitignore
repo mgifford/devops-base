@@ -3,6 +3,9 @@
 *.tar.gz
 *.zip
 
+# Encrypted Data Bags
+data_bag_key
+
 # Librarian/RVM/Bundler
 nodes/*.json
 !nodes/dna.json
