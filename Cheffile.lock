@@ -1,0 +1,53 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.2.0)
+    apt (1.4.8)
+    build-essential (1.1.2)
+    logrotate (0.8.2)
+    memcached (1.0.4)
+      runit (>= 0.0.0)
+    mysql (1.3.0)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
+    openssh (1.0.0)
+    openssl (1.0.0)
+    php (1.1.0)
+      build-essential (>= 0.0.0)
+      mysql (>= 0.0.0)
+      xml (>= 0.0.0)
+    runit (0.15.0)
+    varnish (0.9.2)
+    xml (1.0.4)
+    yum (1.0.0)
+
+GIT
+  remote: https://github.com/msonnabaum/chef-drush.git
+  ref: master
+  sha: 0753dfb106102da0fed54945b2df6f3811b6d93f
+  specs:
+    drush (0.10.0)
+      php (>= 0.0.0)
+
+GIT
+  remote: https://github.com/phlipper/chef-percona
+  ref: master
+  sha: a60acb81f68c017033d62dfea484d96f4b2a716a
+  specs:
+    percona (0.10.0)
+      apt (>= 1.4.4)
+      openssl (>= 0.0.0)
+      yum (>= 0.0.0)
+
+DEPENDENCIES
+  apache2 (>= 0)
+  build-essential (>= 0)
+  drush (>= 0)
+  logrotate (>= 0)
+  memcached (>= 0)
+  openssh (>= 0)
+  percona (>= 0)
+  php (>= 0)
+  varnish (>= 0)
+  yum (>= 0)
+

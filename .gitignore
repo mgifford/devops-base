@@ -1,1 +1,14 @@
+# General system
+.DS_Store
+*.tar.gz
+*.zip
+
+# Encrypted Data Bags
+data_bag_key
+
+# Librarian/RVM/Bundler
 nodes/*.json
+!nodes/dna.json
+cookbooks/
+tmp/
+.bundle/

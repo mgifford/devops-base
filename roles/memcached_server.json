@@ -1,0 +1,17 @@
+{
+  "name": "memcached_server",
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "env_run_lists": {
+  },
+  "run_list": [
+    "recipe[memcached]",
+    "recipe[php::module_memcache]",
+    "recipe[php::module_memcached]"
+  ],
+  "description": "Configure host to run Memcached Daemon.",
+  "chef_type": "role",
+  "override_attributes": {
+  }
+}

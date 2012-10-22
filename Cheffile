@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook "apache2"
+cookbook "build-essential"
+cookbook "drush",
+  :git => "https://github.com/msonnabaum/chef-drush.git",
+  :ref => "master"
+cookbook "logrotate"
+cookbook "memcached"
+cookbook "openssh"
+cookbook "percona",
+  :git => "https://github.com/phlipper/chef-percona",
+  :ref => "master"
+cookbook "php"
+cookbook "varnish"
+#cookbook "varnish",
+  #:git => "https://github.com/opscode-cookbooks/varnish.git",
+  # PR: https://github.com/opscode-cookbooks/varnish/pull/6
+  #:ref => "feature-apt-repo"
+cookbook "yum"
