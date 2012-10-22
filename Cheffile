@@ -19,5 +19,5 @@ cookbook "varnish"
 #cookbook "varnish",
   #:git => "https://github.com/opscode-cookbooks/varnish.git",
   # PR: https://github.com/opscode-cookbooks/varnish/pull/6
-  #:ref => "714fefcf21c1e71d696fdc1ea9d0bbbc39e503ec"
+  #:ref => "feature-apt-repo"
 cookbook "yum"
