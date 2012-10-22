@@ -8,6 +8,7 @@ cookbook "build-essential"
 cookbook "drush",
   :git => "https://github.com/msonnabaum/chef-drush.git",
   :ref => "master"
+cookbook "logrotate"
 cookbook "memcached"
 cookbook "openssh"
 cookbook "percona",
