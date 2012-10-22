@@ -47,4 +47,5 @@ DEPENDENCIES
   percona (>= 0)
   php (>= 0)
   varnish (>= 0)
+  yum (>= 0)
 
