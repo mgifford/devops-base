@@ -9,6 +9,7 @@ cookbook "drush",
   :git => "https://github.com/msonnabaum/chef-drush.git",
   :ref => "master"
 cookbook "memcached"
+cookbook "openssh"
 cookbook "percona",
   :git => "https://github.com/phlipper/chef-percona",
   :ref => "master"
